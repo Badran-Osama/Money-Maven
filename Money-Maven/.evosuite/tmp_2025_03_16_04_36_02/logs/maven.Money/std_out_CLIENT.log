@@ -1,0 +1,83 @@
+* Starting client
+* Connecting to master process on port 7704
+* Analyzing classpath: 
+  - C:\Users\osama\Desktop\idk\A2\Money-Maven\Money-Maven\target\test-classes
+  - C:\Users\osama\Desktop\idk\A2\Money-Maven\Money-Maven\target\classes
+  - C:\Users\osama\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar
+  - C:\Users\osama\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar
+  - C:\Users\osama\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar
+  - C:\Users\osama\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar
+  - C:\Users\osama\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+  - C:\Users\osama\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar
+  - C:\Users\osama\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar
+  - C:\Users\osama\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar
+  - C:\Users\osama\.m2\repository\org\pitest\pitest-junit5-plugin\1.2.0\pitest-junit5-plugin-1.2.0.jar
+  - C:\Users\osama\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar
+* Finished analyzing classpath
+* Generating tests for class maven.Money
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 13 tests from C:\Users\osama\Desktop\idk\A2\Money-Maven\Money-Maven\.evosuite\evosuite-seeds\maven.Money.seed
+* Total number of test goals: 
+  - Line 11
+  - Branch 10
+  - Exception 0
+  - MutationFactory 26
+  - Output 12
+  - Method 5
+  - MethodNoException 5
+  - CBranchFitnessFactory 10
+* Using seed 1742114163805
+* Starting evolution
+* Search finished after 66s and 1903 generations, 623641 statements, best individual has fitness: 2.333332855565084
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 11
+* Number of covered goals: 11
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 96%
+* Total number of goals: 26
+* Number of covered goals: 25
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 92%
+* Total number of goals: 12
+* Number of covered goals: 11
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Generated 15 tests with total length 33
+* Resulting test suite's coverage: 98% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 86%
+* Compiling and checking tests
+* Writing JUnit test case 'Money_ESTest' to C:\Users\osama\Desktop\idk\A2\Money-Maven\Money-Maven\.evosuite\tmp_2025_03_16_04_36_02\tests
+* Done!
+
